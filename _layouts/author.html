@@ -1,8 +1,15 @@
 ---
-layout: default
 ---
 
 <h1>{{ page.name }}</h1>
 <h2>{{ page.position }}</h2>
 
 {{content}}
+
+<h2>This author's posts:</h2>
+<ol>
+    {% assign filteredPosts = site.posts | where: 'author', page.short_name %}
+    {% for post in filteredPosts%}
+    <li><a href="{{post.url}}">{{post.title}}</a></li>
+    {% endfor %}
+</ol>

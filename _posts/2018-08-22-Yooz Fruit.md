@@ -1,6 +1,5 @@
 ---
-layout: post
-author: Mr. Dee
+author: dee
 ---
 Yoooz fruit grows in the imaginations of children who have only suffered minor trauma. The fruit of totally untrauamatized children is not useful.
 
